@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cordチャレンジブログ</title>
+    <meta name="description" content="初心者がはじめてひとりでWebサイトをつくる">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/sanitize.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/images/favicon.ico">
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="header-logo">
+            <a href="index.html" title="cordチャレンジブログ"><img src="./assets/images/hederlogo-self.png" alt="challenge-blog" width="auto" height="100"></a>
+        </h1>
+        <nav class="nav">
+            <ul class="nav-continer">
+                <li class="nav-item">
+                    <a href="./category/category-h.html">HTML</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./category/category-c.html">CSS</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html">お問い合わせ</a>
+                </li>
+                <li class="nav-item">
+                    <a href="profile.html">プロフィール</a>
+                </li>
+            </ul>
+        </nav>        
+    </header>  
+
+    <main class="main">
+        <section class="section">
+            <h1 class="section-headline">お問い合わせ</h1> 
+            <form class="form" action="">
+                <table class="form-table">                  
+                    <tr>
+                        <th>
+                            <label for="name">
+                                お名前［必須］
+                            </label>                            
+                        </th>
+                        <td>
+                            <input class="input" type="text" id="name">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <label for="email">
+                                メールアドレス［必須］
+                            </label>                            
+                        </th>
+                        <td>
+                            <input class="input" type="email" id="email">
+                        </td>
+                    <tr>
+                    <tr>
+                        <th>
+                            <label for="subject">
+                                題名
+                            </label>                            
+                        </th>
+                        <td>
+                            <input class="input" type="text" id="subject">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <label for="message">
+                                メッセージ本文   
+                            </label>                                          
+                        </th>
+                        <td>
+                            <textarea class="textarea" id="message" cols="30" rows="10"></textarea>
+                        </td>
+                    </tr>  
+                     <!-- <tr>
+                        <th>
+                            Menu
+                        </th>
+                        <td>
+                            <select name="" id="">
+                                <option value="menu-1">Menu 1</option>
+                                <option value="menu-2">Menu 2</option>
+                                <option value="menu-3">Menu 3</option>
+                            </select>
+                        </td>
+                    </tr> -->
+                       <!-- <th>
+                            Gender                          
+                        </th>
+                        <td>
+                            <label>
+                                <input type="radio" name="gender" value="male">Male
+                            </label>
+                            <label>
+                                <input type="radio" name="gender" value="female">Femail
+                            </label>
+                            <label>
+                                <input type="radio" name="gender" value="other">Other
+                            </label>
+                        </td>
+                    </tr> -->                                       
+                </table>
+                <div class="section-button">
+                    <button class="button" type="submit">
+                        送信
+                    </button>   
+                </div>             
+            </form> 
+        </section>
+    </main>  
+
+    <footer class="footer">
+        <p>Codeチャレンジブログ</p>
+        <small>&COPY;AOI blog</small>
+    </footer>
+</body>
+</html>
