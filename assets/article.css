@@ -1,0 +1,264 @@
+@charset "utf-8";
+
+
+/*
+Base Style
+*/
+body{
+    font-family: 'Noto Sans JP', "Helvetica Neue", "Helvetica", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+.button, .input, .textarea {
+    cursor: pointer;
+}
+
+
+/*
+header
+*/
+.header {
+    background-color: #4072B3;
+    padding: 15px;
+    width: 100%;
+}
+h1 {
+    margin: 0;
+}
+.header-logo {
+    text-align: center;
+}
+.header-logo a {
+    display: inline-block;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    transition: background-color .25s;
+}
+.header-logo a:hover {
+    box-shadow: 5px 5px 30px #AEC4E5; ;
+}
+@media screen and (max-width: 768px) {
+    .header-logo {
+        font-size: 15px;
+    }
+    .header img {
+        width: 60%;
+        height: auto;
+    }
+}
+
+/*
+nav
+*/
+.nav {
+    width: 800px;
+    margin: auto;
+}
+.nav-continer {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+.nav-item {
+    background-color: #AEC4E5;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    transition: background-color .25s;
+}
+.nav-item a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+}
+.nav-item:hover {
+    background-color: #C0C0C0;
+}
+
+@media screen and (max-width: 768px) {
+    .header nav {
+        width: 100%;
+    }
+    .nav-item {
+        font-size: 10px;
+        margin: 5px;
+        padding: 10px;
+    }
+}
+
+/*
+main
+*/
+.main {
+    width: 1000px;
+    margin: auto;
+    box-sizing: border-box;
+}
+@media screen and (max-width: 768px) {
+    .main {
+        width: 100%;
+        margin: 0 ;
+    }
+}
+
+/*
+section
+*/
+.section {
+    padding: 60px 60px;
+    border: 2px solid #CCCCCC;
+    margin: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .section {
+        width: 100%;
+        margin: 10px 0;
+        padding: 10px;
+    }
+}
+
+/*
+content
+*/
+.content-title {
+    margin: 20px 0;
+}
+.content-img-wrap {
+    width: 80%;
+    margin: 0 auto;
+}
+.content-img {
+    width: 100%;
+}
+@media screen and (max-width: 768px) {
+    .content-title {
+        font-size: 18px;
+    }
+}
+
+/*
+content-time
+*/
+.content-time-wrap {
+    display: flex;
+    justify-content: right;
+    margin: 10px 25px 10px 10px;
+    padding: 10px;
+    list-style: none;
+}
+.content-update {
+    padding-right: 10px;
+}
+.content-time {
+    text-align: right;
+    font-size: small;
+}
+/*
+content-descripton
+*/
+.content-description {
+    margin: 30px 0;
+}
+.content-description p {
+    margin: 0;
+}
+/*
+content-box
+*/
+.content-box {
+    padding: 10px;
+    margin: 60px 200px;
+    border: solid 3px #C0C0C0;
+}
+.content-index {
+    padding: 5px;
+    text-align: center;
+    margin: 5px 0;
+}
+.content-circle {
+    padding: 10px;
+    margin: 0 40px;
+}
+.content-list {
+    text-align: left;
+    padding: 5px;
+}
+.content-list a {
+    text-decoration: none;
+    color: #333;
+}
+@media screen and (max-width: 768px) {
+    .content-box {
+        padding: 10px;
+        margin: 60px 0;
+        border: solid 3px #C0C0C0;
+    }
+}
+
+/*
+article
+*/
+.article-title {
+    padding: 10px;
+    margin: 60px 0;
+    background-color: #AEC4E5;
+    border-radius: 5px;
+}
+/* .article-descripution {} */
+.article-img-wrap {
+    width: 80%;
+    margin: 0 auto;
+}
+.article-img-wrap  img {
+    width: 100%;
+}
+@media screen and (max-width: 768px) {
+    .article-title {
+        font-size: 15px;
+        margin: 60px 0 20px 0;
+    }
+}
+.return-button {
+    padding: 10px;
+    margin: 30px 0 10px 0;
+    text-align: center;
+
+}
+.r-button {
+    display: inline-block;
+    text-decoration: none; 
+    color: #333;
+
+}
+
+/*
+footer
+*/
+.footer {
+    background-color: #4072B3;
+    color:#fff;
+    padding: 30px 15px;
+    text-align: center;
+    line-height: 1;
+}
+.footer a {
+    text-decoration: none;
+    color: #fff;
+    
+}
+@media screen and (max-width: 768px) {
+    .footer {
+        padding: 10px 10px;
+    }
+}
+
