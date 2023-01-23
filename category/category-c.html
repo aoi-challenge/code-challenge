@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cordチャレンジブログ</title>
+    <meta name="description" content="初心者がはじめてひとりでWebサイトをつくる">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/sanitize.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/images/favicon.ico">
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="header-logo">
+            <a href="../index.html" title="cordチャレンジブログ"><img src="../assets/images/hederlogo-self.png" alt="challenge-blog" width="auto" height="100"></a>
+        </h1>
+        <nav class="nav">
+            <ul class="nav-continer">
+                <li class="nav-item">
+                    <a href="category-h.html">HTML</a>
+                </li>
+                <li class="nav-item">
+                    <a href="category-c.html">CSS</a>
+                </li>
+                <li class="nav-item">
+                    <a href="../contact.html">お問い合わせ</a>
+                </li>
+                <li class="nav-item">
+                    <a href="../profile.html" >プロフィール</a>
+                </li>
+            </ul>
+        </nav>        
+    </header>  
+
+    <main class="main">
+        <section class="section">
+            <h1 class="section-headline"><img src="../assets/images/folder.png" width="32" height="32">CSS</h1>
+            <P>CSSについての基本です</P>
+            <article class="card">
+                <a href="#" class="card-link">
+                    <figure class="card-figure">
+                        <img class="card-image" src="../assets/images/cssQ.png" alt="CssCode"   width="240px" height="126px">
+                        <figcaption class="card-caption">
+                            <h2 class="card-headline">CSSとは</h2>
+                            <time class="card-time" datetime="2023-01-01">2023.01.01</time>
+                            <p class="card-description">
+                                「シーエスエス」と読みます<br>
+                                カスケードスタイルシートの略です<br>
+                                HTMLで作った骨組みに、文字の色とか大きさやレイアウトなどを設定して、Webページをデザインする言語のことです・・・
+                            </p>    
+                        </figcaption>
+                    </figure>
+                </a>
+            </article>
+            <article class="card">
+                <a href="#" class="card-link">
+                    <figure class="card-figure">
+                        <img class="card-image" src="../assets/images/css-writing.png" alt="CssWriting"  width="240px" height="126px">
+                        <figcaption class="card-caption">
+                            <h2 class="card-headline">CSSの書き方</h2>
+                            <time class="card-time" datetime="2023-01-01">2023.01.01</time>
+                            <p class="card-description">
+                                セレクタ　{プロパティ： 値；}<br>
+                                この書き方でHTMLファイルに記述したコードの『どこの？』＝セレクタ・『何を？』＝プロパティ・『どうするの？』＝値　を表現します・・・
+                            </p>    
+                        </figcaption>
+                    </figure>
+                </a>
+            </article>
+           
+        </section>
+    </main>  
+
+    <footer class="footer">
+        <p>Codeチャレンジブログ</p>
+        <small>&COPY;AOI blog</small>
+    </footer>
+</body>
+</html>
